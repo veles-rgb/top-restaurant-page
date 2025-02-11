@@ -12,19 +12,19 @@ const tabBtns = document.querySelectorAll("nav button");
 tabBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
         // Render different content for each button
-        if (e.target.textContent === "Home") {
+        if (e.target.textContent === "HOME") {
             content.replaceChildren();
             renderHome();
         };
-        if (e.target.textContent === "Menu") {
+        if (e.target.textContent === "MENU") {
             content.replaceChildren();
             renderMenu()
         };
-        if (e.target.textContent === "About") {
+        if (e.target.textContent === "ABOUT") {
             content.replaceChildren();
             renderAbout()
         };
-        if (e.target.textContent === "Contact") {
+        if (e.target.textContent === "CONTACT") {
             content.replaceChildren();
             renderContact()
         };
