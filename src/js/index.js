@@ -1,7 +1,7 @@
 // index.js
 import "../styles/reset.css";
 import "../styles/styles.css";
-import renderHome from "./pages/home";
+import { renderHome } from "../js/pages/home.js";
 
 // Tab button click listeners
 const content = document.querySelector("#content")

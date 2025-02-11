@@ -1,8 +1,6 @@
 // home.js
 
-export default renderHome()
-
-function renderHome() {
+export function renderHome() {
     const content = document.querySelector("#content");
 
     // Append home container
