@@ -1,7 +1,10 @@
 // index.js
 import "../styles/reset.css";
 import "../styles/styles.css";
-import { renderHome } from "../js/pages/home.js";
+import renderHome from "./pages/home.js";
+import renderMenu from "./pages/menu.js";
+import renderAbout from "./pages/about.js";
+import renderContact from "./pages/contact.js";
 
 // Tab button click listeners
 const content = document.querySelector("#content")
@@ -12,9 +15,19 @@ tabBtns.forEach((btn) => {
         if (e.target.textContent === "Home") {
             content.replaceChildren();
             renderHome();
-        } else if (e.target.textContent === "Menu") {
+        };
+        if (e.target.textContent === "Menu") {
             content.replaceChildren();
-        }
+            renderMenu()
+        };
+        if (e.target.textContent === "About") {
+            content.replaceChildren();
+            renderAbout()
+        };
+        if (e.target.textContent === "Contact") {
+            content.replaceChildren();
+            renderContact()
+        };
     });
 });
 
