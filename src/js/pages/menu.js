@@ -56,7 +56,7 @@ export default function renderMenu() {
     drinkItem1.createCard(drinkItemsContainer);
     const drinkItem2 = new Card("Cup of Water", "A fresh cup of tap water, straight from the pipes.", "$10", waterImg);
     drinkItem2.createCard(drinkItemsContainer);
-    const drinkItem3 = new Card("Cup of Coffee", "A cup of hot coffee (I swear its not instant coffee)", "$3", coffeeImg);
+    const drinkItem3 = new Card("Cup of Coffee", "A cup of hot coffee (I swear its not instant coffee).", "$3", coffeeImg);
     drinkItem3.createCard(drinkItemsContainer);
 
     // Append dessert items container
