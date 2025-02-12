@@ -27,7 +27,7 @@ export default function renderMenu() {
     foodTitle.className = "menu-section-title"
     foodItemsContainer.appendChild(foodTitle);
     // Create food items
-    const foodItem1 = new Card("Pizza", "Classic Pep Pizza", "$5", pizzaImg);
+    const foodItem1 = new Card("Deep Dish Pizza", "6 slices of classic deep dish pizza made in house.", "$10", pizzaImg);
     foodItem1.createCard(foodItemsContainer);
 
     // Append drink items container
@@ -40,7 +40,7 @@ export default function renderMenu() {
     drinkTitle.className = "menu-section-title";
     drinkItemsContainer.appendChild(drinkTitle);
     // Create drink items
-    const drinkItem1 = new Card("Cold Beer", "Cold beer on tap!", "$5", beerImg);
+    const drinkItem1 = new Card("Cold Beer", "Our signature house beer, on tap!", "$5", beerImg);
     drinkItem1.createCard(drinkItemsContainer);
 
     // Append dessert items container
@@ -53,7 +53,7 @@ export default function renderMenu() {
     dessertTitle.className = "menu-section-title";
     dessertItemsContainer.appendChild(dessertTitle);
     // Create dessert items
-    const dessertItem1 = new Card("Cheesecake", "A fresh slice of homemade cheesecake", "$3", cheesecakeImg)
+    const dessertItem1 = new Card("Cheesecake", "A fresh slice of homemade cheesecake.", "$3", cheesecakeImg)
     dessertItem1.createCard(dessertItemsContainer)
 };
 
