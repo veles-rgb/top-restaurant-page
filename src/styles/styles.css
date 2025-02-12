@@ -200,6 +200,8 @@ nav > button:hover {
 
 .card-price {
     font-size: 1.5rem;
+    font-weight: 900;
+    font-family: cursive;
 }
 
 .card-image {
