@@ -17,12 +17,12 @@ export default function renderMenu() {
 
     // Append food items container
     const foodItemsContainer = document.createElement("div");
-    foodItemsContainer.id = "food-items-container";
+    foodItemsContainer.className = "items-container";
     menuContainer.appendChild(foodItemsContainer);
 
     const foodTitle = document.createElement("h2");
     foodTitle.textContent = "FOOD";
-    foodTitle.id = "menu-section-title"
+    foodTitle.className = "menu-section-title"
     foodItemsContainer.appendChild(foodTitle);
 
     const foodItem1 = new Card("Pizza", "Classic Pep Pizza", "$5", pizzaImg)
