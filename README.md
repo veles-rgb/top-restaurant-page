@@ -4,4 +4,5 @@ The Odin Project: [Project Restaurant Page](https://www.theodinproject.com/lesso
 
 ## Sources
 * Logo Image - [feathericons](https://feathericons.com/)
-* Home Page Image - [pexels](https://www.pexels.com/photo/four-assorted-liquor-bottles-340996/) by Isabella Mendes
+* Home Page Image - [Isabella Mendes via pexels](https://www.pexels.com/photo/four-assorted-liquor-bottles-340996/)
+* Pizza Image - [James Collington via pexels](https://www.pexels.com/photo/freshly-baked-pizza-in-commercial-oven-30512710/)
