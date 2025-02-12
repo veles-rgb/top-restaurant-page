@@ -4,6 +4,8 @@ import burgerImg from '/src/imgs/food-burger.jpg';
 import tacosImg from '/src/imgs/food-tacos.jpg';
 import steakImage from '/src/imgs/food-steak.jpg';
 import beerImg from "/src/imgs/drinks-beer.jpg";
+import waterImg from '/src/imgs/drinks-water.jpg';
+import coffeeImg from '/src/imgs/drinks-coffee.jpg';
 import cheesecakeImg from '/src/imgs/desserts-cheesecake.jpg';
 
 
@@ -52,6 +54,10 @@ export default function renderMenu() {
     // Create drink items
     const drinkItem1 = new Card("Cold Beer", "Our signature house beer, on tap!", "$5", beerImg);
     drinkItem1.createCard(drinkItemsContainer);
+    const drinkItem2 = new Card("Cup of Water", "A fresh cup of tap water, straight from the pipes.", "$10", waterImg);
+    drinkItem2.createCard(drinkItemsContainer);
+    const drinkItem3 = new Card("Cup of Coffee", "A cup of hot coffee (I swear its not instant coffee)", "$3", coffeeImg);
+    drinkItem3.createCard(drinkItemsContainer);
 
     // Append dessert items container
     const dessertItemsContainer = document.createElement("div");
