@@ -7,6 +7,7 @@ import beerImg from "/src/imgs/drinks-beer.jpg";
 import waterImg from '/src/imgs/drinks-water.jpg';
 import coffeeImg from '/src/imgs/drinks-coffee.jpg';
 import cheesecakeImg from '/src/imgs/desserts-cheesecake.jpg';
+import cookiesImg from '/src/imgs/dessert-cookies.jpg';
 
 
 const content = document.querySelector("#content");
@@ -71,6 +72,8 @@ export default function renderMenu() {
     // Create dessert items
     const dessertItem1 = new Card("Cheesecake", "A fresh slice of homemade cheesecake.", "$3", cheesecakeImg)
     dessertItem1.createCard(dessertItemsContainer)
+    const dessertItem2 = new Card("Chocolate Chip Cookies", "2x freshly baked chocolate chips cookies.", "$3", cookiesImg);
+    dessertItem2.createCard(dessertItemsContainer);
 };
 
 // Card class constructor
