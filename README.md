@@ -14,5 +14,7 @@ The Odin Project: [Project Restaurant Page](https://www.theodinproject.com/lesso
     - Flame Grilled Steak - Gonzalo Guzman via [pexels](https://www.pexels.com/photo/grilled-meat-on-charcoal-grill-3997609/)
 * Drink Images
     - Beer - Alex P via [pexels](https://www.pexels.com/photo/drinking-glass-1009068/)
+    - Cup of Water - Meir Roth via [pexels](https://www.pexels.com/photo/clear-plastic-cup-on-gray-surface-87383/)
+    - Cup of Coffee - Victor Freitas via [pexels](https://www.pexels.com/photo/white-ceramic-mug-and-saucer-685527/)
 * Dessert Images
     - Cheesecake - Suzy Hazelwood via [pexels](https://www.pexels.com/photo/cheesecake-1126359/)
