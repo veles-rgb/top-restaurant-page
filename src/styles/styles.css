@@ -158,7 +158,8 @@ nav > button:hover {
     gap: 1rem;
     padding: 0 2rem 2rem 2rem;
     margin-bottom: 2rem;
-    box-shadow: 1px 1px 5px 5px var(--secondary-color);
+    border-radius: 2rem;
+    box-shadow: 0px 15px 10px -15px var(--secondary-color);
 }
 
 .menu-section-title {
@@ -188,6 +189,12 @@ nav > button:hover {
 }
 
 .card-description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25rem;
+    border-bottom: 1px solid var(--secondary-color);
+    border-radius: 2rem;
     font-size: 1.5rem;
 }
 
