@@ -2,6 +2,7 @@
 import pizzaImg from "/src/imgs/food-pizza.jpg";
 import beerImg from "/src/imgs/drinks-beer.jpg";
 import cheesecakeImg from '/src/imgs/desserts-cheesecake.jpg';
+import burgerImg from '/src/imgs/food-burger.jpg'
 
 const content = document.querySelector("#content");
 
@@ -29,6 +30,8 @@ export default function renderMenu() {
     // Create food items
     const foodItem1 = new Card("Deep Dish Pizza", "6 slices of classic deep dish pizza made in house.", "$10", pizzaImg);
     foodItem1.createCard(foodItemsContainer);
+    const foodItem2 = new Card("Smirk's Burger", "All beef burger, made with all fresh ingredients", "$9.99", burgerImg);
+    foodItem2.createCard(foodItemsContainer);
 
     // Append drink items container
     const drinkItemsContainer = document.createElement("div");
