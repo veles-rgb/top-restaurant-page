@@ -1,8 +1,11 @@
 // menu.js
 import pizzaImg from "/src/imgs/food-pizza.jpg";
+import burgerImg from '/src/imgs/food-burger.jpg';
+import tacosImg from '/src/imgs/food-tacos.jpg';
+import steakImage from '/src/imgs/food-steak.jpg';
 import beerImg from "/src/imgs/drinks-beer.jpg";
 import cheesecakeImg from '/src/imgs/desserts-cheesecake.jpg';
-import burgerImg from '/src/imgs/food-burger.jpg'
+
 
 const content = document.querySelector("#content");
 
@@ -15,7 +18,7 @@ export default function renderMenu() {
 
     // Append h1 / title
     const menuTitle = document.createElement("h1");
-    menuTitle.textContent = "MENU";
+    menuTitle.textContent = "SMIRK'S MENU";
     menuContainer.appendChild(menuTitle);
 
     // Append food items container
@@ -30,8 +33,12 @@ export default function renderMenu() {
     // Create food items
     const foodItem1 = new Card("Deep Dish Pizza", "6 slices of classic deep dish pizza made in house.", "$10", pizzaImg);
     foodItem1.createCard(foodItemsContainer);
-    const foodItem2 = new Card("Smirk's Burger", "All beef burger, made with all fresh ingredients", "$9.99", burgerImg);
+    const foodItem2 = new Card("Smirk's Burger", "All beef burger, made with all fresh ingredients.", "$9.99", burgerImg);
     foodItem2.createCard(foodItemsContainer);
+    const foodItem3 = new Card("Chicken Tacos", "4x hot chicken tacos with your choice of veggies and sauce.", "$11", tacosImg);
+    foodItem3.createCard(foodItemsContainer);
+    const foodItem4 = new Card("Flamed Grilled Steak", "Our famous 9oz flamed grilled steak. It's like a taste of heaven.", "$19.99", steakImage);
+    foodItem4.createCard(foodItemsContainer);
 
     // Append drink items container
     const drinkItemsContainer = document.createElement("div");
@@ -97,8 +104,8 @@ class Card {
         const cardImg = document.createElement("img");
         cardImg.src = this.image;
         cardImg.className = "card-image";
-        cardImg.style.width = "20rem"
-        cardImg.style.height = "auto"
+        cardImg.style.width = "50rem"
+        cardImg.style.height = "20rem"
         card.appendChild(cardImg);
     };
 };
