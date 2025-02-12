@@ -18,3 +18,4 @@ The Odin Project: [Project Restaurant Page](https://www.theodinproject.com/lesso
     - Cup of Coffee - Victor Freitas via [pexels](https://www.pexels.com/photo/white-ceramic-mug-and-saucer-685527/)
 * Dessert Images
     - Cheesecake - Suzy Hazelwood via [pexels](https://www.pexels.com/photo/cheesecake-1126359/)
+    - Chocolate Chip Cookies - StockPhotosHub.com via [pexels](https://www.pexels.com/photo/two-chocolate-chip-cookies-298485/)
