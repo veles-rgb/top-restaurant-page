@@ -19,7 +19,7 @@ export default function renderMenu() {
 
     // Append food items container
     const foodItemsContainer = document.createElement("div");
-    foodItemsContainer.className = "items-container";
+    foodItemsContainer.className = "section-container";
     menuContainer.appendChild(foodItemsContainer);
     // Create food items title
     const foodTitle = document.createElement("h2");
@@ -32,7 +32,7 @@ export default function renderMenu() {
 
     // Append drink items container
     const drinkItemsContainer = document.createElement("div");
-    drinkItemsContainer.className = "items-container";
+    drinkItemsContainer.className = "section-container";
     menuContainer.appendChild(drinkItemsContainer);
     // Create drinks title
     const drinkTitle = document.createElement("h2");
@@ -45,7 +45,7 @@ export default function renderMenu() {
 
     // Append dessert items container
     const dessertItemsContainer = document.createElement("div");
-    dessertItemsContainer.className = "items-container";
+    dessertItemsContainer.className = "section-container";
     menuContainer.appendChild(dessertItemsContainer);
     // Create dessert title
     const dessertTitle = document.createElement("h2");

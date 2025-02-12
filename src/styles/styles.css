@@ -152,6 +152,15 @@ nav > button:hover {
     padding-bottom: 2rem;
 }
 
+.section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 2rem 2rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 1px 1px 5px 5px var(--secondary-color);
+}
+
 .menu-section-title {
     display: flex;
     flex-direction: column;
@@ -190,14 +199,4 @@ nav > button:hover {
     margin: 0.6rem;
     border-radius: 2rem;
     box-shadow: 1px 1px 5px 2px var(--secondary-color);
-}
-
-.items-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0 2rem 2rem 2rem;
-    margin-bottom: 2rem;
-    border: 0.2rem solid var(--secondary-color);
-    box-shadow: 1px 1px 5px 5px var(--secondary-color);
 }
