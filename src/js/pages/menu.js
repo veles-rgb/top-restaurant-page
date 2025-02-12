@@ -113,8 +113,8 @@ class Card {
         const cardImg = document.createElement("img");
         cardImg.src = this.image;
         cardImg.className = "card-image";
-        cardImg.style.width = "50rem"
-        cardImg.style.height = "20rem"
+        cardImg.style.width = "28rem";
+        cardImg.style.height = "20rem";
         card.appendChild(cardImg);
     };
 };
