@@ -14,7 +14,6 @@ export default function renderHome() {
     homeContainer.appendChild(homeH1);
 
     // Append H2
-
     const homeH2 = document.createElement("h2");
     homeH2.textContent = "Fresh food, cold drinks and good times.";
     homeContainer.appendChild(homeH2);
