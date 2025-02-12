@@ -1,5 +1,7 @@
 // menu.js
 import pizzaImg from "/src/imgs/food-pizza.jpg";
+import beerImg from "/src/imgs/drinks-beer.jpg";
+import cheesecakeImg from '/src/imgs/desserts-cheesecake.jpg';
 
 const content = document.querySelector("#content");
 
@@ -19,17 +21,40 @@ export default function renderMenu() {
     const foodItemsContainer = document.createElement("div");
     foodItemsContainer.className = "items-container";
     menuContainer.appendChild(foodItemsContainer);
-
+    // Create food items title
     const foodTitle = document.createElement("h2");
     foodTitle.textContent = "FOOD";
     foodTitle.className = "menu-section-title"
     foodItemsContainer.appendChild(foodTitle);
+    // Create food items
+    const foodItem1 = new Card("Pizza", "Classic Pep Pizza", "$5", pizzaImg);
+    foodItem1.createCard(foodItemsContainer);
 
-    const foodItem1 = new Card("Pizza", "Classic Pep Pizza", "$5", pizzaImg)
-    foodItem1.createCard(foodItemsContainer)
+    // Append drink items container
+    const drinkItemsContainer = document.createElement("div");
+    drinkItemsContainer.className = "items-container";
+    menuContainer.appendChild(drinkItemsContainer);
+    // Create drinks title
+    const drinkTitle = document.createElement("h2");
+    drinkTitle.textContent = "DRINKS";
+    drinkTitle.className = "menu-section-title";
+    drinkItemsContainer.appendChild(drinkTitle);
+    // Create drink items
+    const drinkItem1 = new Card("Cold Beer", "Cold beer on tap!", "$5", beerImg);
+    drinkItem1.createCard(drinkItemsContainer);
 
-    const foodItem2 = new Card("Pizza", "Classic Pep Pizza", "$5", pizzaImg)
-    foodItem2.createCard(foodItemsContainer)
+    // Append dessert items container
+    const dessertItemsContainer = document.createElement("div");
+    dessertItemsContainer.className = "items-container";
+    menuContainer.appendChild(dessertItemsContainer);
+    // Create dessert title
+    const dessertTitle = document.createElement("h2");
+    dessertTitle.textContent = "DESSERTS";
+    dessertTitle.className = "menu-section-title";
+    dessertItemsContainer.appendChild(dessertTitle);
+    // Create dessert items
+    const dessertItem1 = new Card("Cheesecake", "A fresh slice of homemade cheesecake", "$3", cheesecakeImg)
+    dessertItem1.createCard(dessertItemsContainer)
 };
 
 // Card class constructor
