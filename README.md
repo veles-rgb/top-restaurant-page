@@ -7,6 +7,7 @@ The Odin Project: [Project Restaurant Page](https://www.theodinproject.com/lesso
 * General Images
     - Logo - [feathericons](https://feathericons.com/)
     - Home Page Hero - Isabella Mendes via [pexels](https://www.pexels.com/photo/four-assorted-liquor-bottles-340996/)
+    - About page design - AI generated using [glif.app](glif.app)
 * Food Images
     - Pizza - James Collington via [pexels](https://www.pexels.com/photo/freshly-baked-pizza-in-commercial-oven-30512710/)
     - Burger - Valeria Boltneva via [pexels](pexels.com/photo/photo-of-juicy-burger-on-wooden-surface-1639565/)
