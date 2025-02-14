@@ -14,22 +14,42 @@ tabBtns.forEach((btn) => {
         // Render different content for each button
         if (e.target.textContent === "HOME") {
             content.replaceChildren();
+            const homeBtn = document.getElementById("home-btn")
             renderHome();
+            homeBtn.classList.add("active")
+            removeActive("HOME")
         };
         if (e.target.textContent === "MENU") {
             content.replaceChildren();
-            renderMenu()
+            const menuBtn = document.getElementById("menu-btn");
+            renderMenu();
+            menuBtn.classList.add("active");
+            removeActive("MENU");
         };
         if (e.target.textContent === "ABOUT") {
             content.replaceChildren();
-            renderAbout()
+            const aboutBtn = document.getElementById("about-btn");
+            renderAbout();
+            aboutBtn.classList.add("active");
+            removeActive("ABOUT");
         };
         if (e.target.textContent === "CONTACT") {
             content.replaceChildren();
-            renderContact()
+            const contactBtn = document.getElementById("contact-btn");
+            renderContact();
+            contactBtn.classList.add("active");
+            removeActive("CONTACT");
         };
     });
 });
+
+function removeActive(current) {
+    tabBtns.forEach((btn => {
+        if (btn.textContent !== current) {
+            btn.classList.remove("active");
+        };
+    }));
+};
 
 // Initial home page load
 renderHome();
