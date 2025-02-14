@@ -1,4 +1,5 @@
 // menu.js
+import menuImg from "/src/imgs/menu-image.jpg";
 import pizzaImg from "/src/imgs/food-pizza.jpg";
 import burgerImg from '/src/imgs/food-burger.jpg';
 import tacosImg from '/src/imgs/food-tacos.jpg';
