@@ -88,7 +88,6 @@ nav>button:hover {
     height: 100%;
     color: white;
     background-color: var(--button-hover-color);
-    ;
     border-top: none;
     cursor: pointer;
 }
@@ -290,6 +289,8 @@ footer p {
 }
 
 #form-container {
+    overflow: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -301,7 +302,73 @@ footer p {
     box-shadow: inset 0 0 0 100vh var(--secondary-color-transparent), 0px 0px 5px 5px black;
 }
 
+#form-container h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+}
+
+#form-container p {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid var(--secondary-color);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
 #contact-form {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#contact-form label {
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+#contact-form input {
+    height: 2rem;
+    width: 16rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 5px var(--secondary-color);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    width: 70%;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px 5px var(--secondary-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#contact-form input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#contact-form input[type="submit"]:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--button-hover-color);
 }

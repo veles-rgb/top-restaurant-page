@@ -10,7 +10,7 @@ export default function renderContact() {
 
     // Create container heading
     const contactH1 = document.createElement("h1");
-    contactH1.textContent = "Contact Us";
+    contactH1.textContent = "CONTACT";
     formContainer.appendChild(contactH1);
 
     // Create container description
@@ -75,7 +75,7 @@ export default function renderContact() {
     // Create submit button
     const submitBtn = document.createElement("input");
     submitBtn.type = "submit";
-    submitBtn.value = "Submit";
+    submitBtn.value = "SUBMIT";
     contactForm.appendChild(submitBtn);
 
     // Add submit event listener
